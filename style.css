@@ -1,0 +1,131 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 16px;
+  background-image: url("images/pattern-background-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a{
+  cursor: pointer;
+  font-weight: 700;
+}
+
+/* card */
+.card{
+  /* border: 1px solid black; */
+  min-height: 80vh;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #fff;
+  border-radius: 25px;
+}
+
+/* hero image */
+.hero{
+  /* flex-grow: 3; */
+  height: 200px;
+  background: url("images/illustration-hero.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+/* heading order sunnary */
+h1{
+  font-weight: 900;
+  color:hsl(223, 47%, 23%);
+  /* flex-grow: 1; */
+}
+
+/* paragraph */
+p{
+  font-weight: 500;
+  /* flex-grow: 2; */
+  color:hsl(224, 23%, 55%); /* Desaturated blue */
+}
+
+/* plan section */
+.plan{
+  display: flex;
+  flex-direction: row;
+  /* flex-grow: 1; */
+  width: 80%;
+  margin: 0 auto;
+  align-items: center;
+  background: #f8f9fe;
+  height: 75px;
+  padding: 5px 20px;
+  border-radius: 10px;
+}
+
+.plan-img{
+  flex-grow: 1;
+}
+
+.plan-inside{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 3;
+}
+
+.plan a{
+  flex-grow: 1;
+  color: hsl(245, 75%, 52%);
+  text-decoration: underline;
+}
+
+.plan a:hover{
+  color: #766cf1;
+  text-decoration: none;
+}
+
+/* proceed to pay button */
+.btn-primary{
+  /* flex-grow: 1; */
+  width: 80%;
+  margin: 0 auto;
+  height: 60px;
+  color: #fff;
+  background-color: hsl(245, 75%, 52%);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.btn-primary:hover{
+  background-color: #766cf1;
+}
+/* cancel button */
+.btn-secondary{
+  /* flex-grow: 1; */
+  width: 80%;
+  margin: 0 auto;
+  height: 60px;
+  border-radius: 15px;
+  color: hsl(224, 23%, 55%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-secondary:hover{
+  color: hsl(223, 47%, 23%);
+}
