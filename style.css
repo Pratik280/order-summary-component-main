@@ -30,7 +30,8 @@ a{
 
 /* card */
 .card{
-  min-height: 80vh;
+  height: 650px;
+  /* min-height: 80vh; */
   width: 80%;
   max-width: 450px;
   margin: auto;
@@ -142,5 +143,6 @@ p{
 @media only screen and (min-width: 600px) {
   .card {
     margin: auto;
+  /* height: 600px; */
   }
 }
