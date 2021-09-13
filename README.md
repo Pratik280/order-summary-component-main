@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Source Code : [Github](https://github.com/Pratik280/order-summary-component-main)
-- Live Site : [pratik280.github.io](https://pratik280.github.io/order-summary-component-main/)
+- Live Site : [https://pratik280.github.io/order-summary-component-main/](https://pratik280.github.io/order-summary-component-main/)
 
 ## My process
 
